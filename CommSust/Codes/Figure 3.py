@@ -18,7 +18,6 @@ chill_df = pd.DataFrame({
     'Chill': chill_data['Chill']
 })
 
-#file_path = 'glade/work/prajha/data/GRIDMET/tmx'
 ds = xr.open_dataset(os.path.join(path, 'plot_data_published', 'tmmx_1981.nc'))
 # Extract 'lon' and 'lat' coordinates
 lon_all = ds['lon'].values
