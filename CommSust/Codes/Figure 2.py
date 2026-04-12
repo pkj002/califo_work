@@ -30,9 +30,8 @@ latlon = pd.read_csv(os.path.join(path, 'plot_data_published/cmip6_loca2_lat_lon
 lat_model = latlon['lat'].dropna().values
 lon_model = latlon['lon'].dropna().values
 #%% GRIDMET
-#read_path = os.path.join(path, 'plot_data_published/calif_chill_df_combined_see_script_plot_chill_diff.npz')
 read_path = os.path.join(path, 'plot_data_published/GRIDMET_chill_df_Figure2.npz')
-#read_path = '/glade/work/prajha/data/GRIDMET/gridmet_chill/calif_chill_df_combined_see_script_plot_chill_diff.npz'
+
 chill_data = np.load(read_path)
 chill_df = pd.DataFrame({
     'Longitude': chill_data['Longitude'],
