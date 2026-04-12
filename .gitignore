@@ -1,0 +1,20 @@
+# Data files (VERY IMPORTANT for climate/GIS projects)
+*.nc
+*.tif
+*.tiff
+*.shp
+*.dbf
+*.prj
+*.cpg
+*.csv
+*.npz
+*.rds
+
+# OS / system
+.DS_Store
+Thumbs.db
+
+# R / Python outputs
+*.RData
+*.Rhistory
+__pycache__/
