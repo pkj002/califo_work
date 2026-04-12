@@ -7,7 +7,6 @@ import pandas as pd
 from matplotlib.colors import ListedColormap, BoundaryNorm
 import matplotlib.cm as cm
 
-
 # --- File paths (copy 'plot_data_published' directory inside path dir) ---
 path = "path_to_project_root" 
 
