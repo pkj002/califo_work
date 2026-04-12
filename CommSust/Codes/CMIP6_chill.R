@@ -2,7 +2,7 @@ pacman::p_load(
   ncdf4, dplyr, lubridate, chillR, tidyr, readr, future, furrr, tidyverse 
 )
 
-# Helper to convert to chillR format
+# convert to chillR format
 chillr_tbl <- function(df) {
   df |>
     mutate(Year = year(dt), Month = month(dt), Day = day(dt),
