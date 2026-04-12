@@ -61,7 +61,9 @@ bias_cor_tmx <- readRDS(file.path(data_path, 'ECMWF_tmx_monthly_to_daily_bias_co
 bias_cor_tmx <- readRDS(file.path(data_path, 'ECMWF_tmin_monthly_to_daily_bias_corrected_using_methods_mentioned_in_the_article.RDS'))
 
 #  Check index mapping
-valid_indices <- read.csv('/glade/work/prajha/data/pts_where_crops.csv')
+# --- File paths (copy 'plot_data_published' directory inside path) ---
+path = "path_to_project_root" 
+valid_indices <- read.csv(file.path(path, "pts_where_crops.csv"))
 # Fix: get actual lat/lon from full grid
 valid_lons <- lons[valid_indices[, "i"]]
 valid_lats <- lats[valid_indices[, "j"]]
@@ -87,7 +89,7 @@ final_indices <- data.frame(
   lat = valid_lats[valid_mask]
 )
 
-mod_outpath <- '/glade/work/prajha/data/mod_monthly_bc_daily1'
+mod_outpath <- 'where you want to save output files'
 dir.create(mod_outpath, showWarnings = FALSE, recursive = TRUE)
 
 # Function to process a single grid cell
