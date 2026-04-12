@@ -5,7 +5,6 @@ pacman::p_load(ncdf4,dplyr,lubridate,abind,raster,purrr,chillR,tidyr,sf,terra,zo
 #######################################################################################################################
 ###################################### Part 1: Loading the tmx and tmin data from PRISM ###############################
 # Paths to data
-#obs_base_path <- "C:/Users/Prakash/OneDrive - University of California, Davis/califo_work/climate_data/GRIDMET"
 obs_base_path <- "directory where annual GRIDMET tmax and tmin files are present"
 tmax_path <- file.path(obs_base_path, "tmx")
 tmin_path <- file.path(obs_base_path, "tmin")
@@ -274,7 +273,7 @@ for (i in seq_len(lon_dim)) {  # Loop over longitude
       return(df)
     }
     
-    # Example usage
+    # Now use the function
     result <- calculate_chill_adjusted(chill_dataframe)
     # Define leap years based on the range of years in your dataset
     leap_years <- unique(result$Year[result$Year %% 4 == 0 & (result$Year %% 100 != 0 | result$Year %% 400 == 0)])
