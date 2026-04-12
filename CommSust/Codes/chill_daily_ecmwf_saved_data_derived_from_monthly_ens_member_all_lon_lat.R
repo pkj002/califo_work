@@ -55,7 +55,7 @@ nc_close(tmax_file)
 lon_cal <- lons[8:256]
 lat_cal <- lats[178:407]
 
-data_path <- '/glade/work/prajha/data/GRIDMET'
+data_path <- 'path where bias corrected ECMWF data are present'
 bias_cor_tmx <- readRDS(file.path(data_path, 'ECMWF_tmx_monthly_to_daily_bias_corrected_using_methods_mentioned_in_the_article.RDS'))
 bias_cor_tmx <- readRDS(file.path(data_path, 'ECMWF_tmin_monthly_to_daily_bias_corrected_using_methods_mentioned_in_the_article.RDS'))
 
