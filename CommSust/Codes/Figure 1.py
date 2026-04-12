@@ -58,7 +58,7 @@ sig_gdf.plot(
     markersize=1,          # can stay small
     alpha=0.95,
     norm=norm,
-    rasterized=True,       # 🔑 KEY FIX
+    rasterized=True,       
     legend=True,
     legend_kwds={
         'label': r"Chill slope (chill portions yr$^{-1}$)",
