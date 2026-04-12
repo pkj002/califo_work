@@ -23,7 +23,6 @@ md  = pd.read_csv(os.path.join(path, 'plot_data_published/ECMWF_chill_daily_bc_d
 mm  = pd.read_csv(os.path.join(path, 'plot_data_published/ECCMWF_chill_monthly_bc_daily_all_years.csv'))
 
 # Load shapefile for CA counties
-#shp_path = r'C:/Users/Prakash/OneDrive - University of California, Davis/califo_work/Pest paper/CODE AND DATA/SHP/'
 california = gpd.read_file(os.path.join(path, 'plot_data_published/SHP/CA_county.shp'))
 
 # Create Feb_Total in each dataset
