@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 from scipy.spatial import cKDTree
+import matplotlib.pyplot as plt
 
 print("Starting script...", flush=True)
 
@@ -110,8 +111,6 @@ out_file = os.path.join(path, "mod_obs/region_yearly_obs_pred_method1.csv")
 # pd.set_option('display.max_columns', None)
 # print(results_df.head(10))
 #%%
-import matplotlib.pyplot as plt
-import pandas as pd
 
 # Separate data for MD and MM
 md = results_df[results_df['Model'] == 'MD']
