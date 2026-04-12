@@ -42,7 +42,8 @@ cld <- data.frame(
       (year(dt) == years[length(years)] & month(dt) %in% c(1, 2))
   )
 
-obs_base_path <- '/glade/work/prajha/data/GRIDMET'
+obs_base_path <- "path_to_project_root" 
+# --- File paths (copy 'plot_data_published' directory inside path) ---
 tmax_path <- file.path(obs_base_path, "tmx")
 tmax_file <- nc_open(file.path(tmax_path, paste0("tmmx_", years[1], ".nc")))
 tmin_path <- file.path(obs_base_path, "tmin")
