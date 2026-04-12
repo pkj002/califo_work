@@ -3,6 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 import xarray as xr
+import geopandas as gpd
 
 '''
 this script is same as 'plot_crop_county_long_term_chill_decline.py' script.
@@ -11,8 +12,8 @@ sum of each month N+D+J+F but this script used NDJF sum directly from chill comp
 '''
 
 # --- File paths (copy 'plot_data_published' directory inside path dir) ---
-#path = "path_to_project_root" 
-path = r'C:\Users\Prakash\Box\CommSust\final_review'
+path = "path_to_project_root" 
+
 #%% GRIDMET
 read_path = os.path.join(path, 'plot_data_published', 'GRIDMET_chill_df_Figure2.npz')
 chill_data = np.load(read_path)
@@ -84,8 +85,6 @@ median_values = {
 
 years_unique = list(range(1980, 2025))  # same as crop_timeseries keys
 
-import geopandas as gpd
-
 # Load California shapefile
 shapefile_path = os.path.join(path, 'plot_data_published', 'SHP', 'CA_county.shp')
 california = gpd.read_file(shapefile_path)
@@ -100,8 +99,7 @@ crop_county = {
 crops = ['pista', 'walnut', 'cherry', 'plum']
 crop_labels = ['(a) Pistachio', '(b) Walnut', '(c) Cherry', '(d) Plum']
 
-
-# Helper function
+# Function
 def extract_mean_timeseries(array_3d, lat_inds, lon_inds):
     series = []
     for t in range(array_3d.shape[2]):
