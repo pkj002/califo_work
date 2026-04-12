@@ -79,7 +79,6 @@ final_indices <- data.frame(
 )
 
 # Output path
-#mod_outpath <- '/glade/work/prajha/data/mod_daily_bc_daily'
 mod_outpath <- 'path where you want to save output files'
 dir.create(mod_outpath, showWarnings = FALSE, recursive = TRUE)
 
