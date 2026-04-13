@@ -8,6 +8,7 @@ import numpy as np
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 # --- File paths (copy 'plot_data_published' directory inside path) ---
+# Download "plot_data_published" directory (https://ucmerced.box.com/s/u9ntcj58lii519std4u1cfi8gkl07h5k)
 path = "path_to_project_root" 
 
 # --- Load shapefiles ---
