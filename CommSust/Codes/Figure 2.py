@@ -22,6 +22,7 @@ def plot_trend(ax, x, y, color, label):
 
 #CMIP6
 # --- File paths (copy 'plot_data_published' directory inside path dir) ---
+# Download "plot_data_published" directory (https://ucmerced.box.com/s/u9ntcj58lii519std4u1cfi8gkl07h5k)
 path = "path_to_project_root" 
 chill_historical = np.load(os.path.join(path, "plot_data_published/cmip6_chill_historical.npy"))
 chill_ssp585 = np.load(os.path.join(path, "plot_data_published/cmip6_chill_ssp585.npy"))
