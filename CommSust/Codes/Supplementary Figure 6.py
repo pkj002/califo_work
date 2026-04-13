@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 print("Starting script...", flush=True)
 
 # --- File paths (copy 'plot_data_published' directory inside path dir) ---
+# Download "plot_data_published" directory (https://ucmerced.box.com/s/u9ntcj58lii519std4u1cfi8gkl07h5k)
 path = "path_to_project_root" 
 
 # --------------------
