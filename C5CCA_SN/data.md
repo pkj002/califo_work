@@ -26,6 +26,4 @@ and processed for climate-risk analyses and figure generation.
 ## Download
 The complete processed dataset archive is publicly available on Zenodo:
 https://doi.org/10.5281/zenodo.20058559
-The complete processed dataset archive is publicly available on Zenodo:
 
-https://doi.org/10.5281/zenodo.20058559
