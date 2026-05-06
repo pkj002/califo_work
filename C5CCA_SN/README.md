@@ -2,25 +2,17 @@
 
 This repository contains scripts, processed datasets, and analysis outputs
 associated with the study:
-
 “From intermittent to persistent chill insufficiency in California’s specialty crops”
 
 ## Data Availability
-
 Processed datasets used in this study are publicly available on Zenodo:
-
 https://doi.org/10.5281/zenodo.20058559
 
 ## Repository Contents
-
-- `plot_data_published/` : processed datasets used for figure generation
-- `scripts/` : analysis and visualization scripts
-- `figures/` : generated figures and outputs
+Python scripts and workflows used to generate figures and analyses presented in the manuscript.
 
 ## Data Sources
-
 The analyses use publicly available datasets including:
-
 - GRIDMET meteorological observations
 - LOCA2 downscaled CMIP6 climate projections
 - ECMWF seasonal forecast products
