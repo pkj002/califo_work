@@ -47,8 +47,8 @@ The scripts were developed on a Windows operating system.
 ### Hydrologic Variables
 Hydrologic variables such as SWE, runoff, snowmelt, and soil moisture were obtained from VIC model simulations forced by CMIP6 climate projections.
 
-Processed metadata and supporting datasets:  
-https://ucmerced.box.com/s/k9x65zjovgka424fi6m8mm8szfoxpq31
+Processed metadata and supporting datasets are publicly available through Zenodo:
+https://doi.org/10.5281/zenodo.20073440
 
 ---
 ## Study Region
