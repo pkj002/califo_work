@@ -1,6 +1,5 @@
-# C5CCA_SN: Sierra Nevada Climate Change Figure Scripts
-
-This repository contains Python scripts used to generate figures for the **California Fifth Climate Change Assessment (C5CCA)** regional report for the **Sierra Nevada region**.
+# C5CCA_SN: Sierra Nevada Chapter 2 (Climate science and projections) Figure Scripts
+This repository contains Python scripts used to generate figures for the Climate science and projections chapter of the **California Fifth Climate Change Assessment (C5CCA)** regional report for the **Sierra Nevada region**.
 
 The scripts reproduce climate projection analyses and visualizations presented in the report, including temperature, precipitation, snow water equivalent (SWE), runoff, snowmelt, and soil moisture changes under multiple CMIP6 Shared Socioeconomic Pathway (SSP) scenarios.
 
@@ -10,9 +9,7 @@ https://github.com/pkj002/califo_work/tree/main/C5CCA_SN
 ---
 
 ## Overview
-
 The scripts primarily use:
-
 - Python
 - xarray
 - numpy
@@ -21,13 +18,10 @@ The scripts primarily use:
 - cartopy
 
 Climate projection datasets are mainly derived from:
-
 - LOCA2 downscaled CMIP6 climate projections
 - VIC (Variable Infiltration Capacity) hydrologic model outputs
 
 The scripts were developed on a Windows operating system.
-
----
 
 ## Directory Contents
 
@@ -38,16 +32,14 @@ The scripts were developed on a Windows operating system.
 | `Figure 2.4.py` | Figure 2.4 | Subregional temperature variability across SSP scenarios |
 | `Figure 2.5.py` | Figure 2.5 | Future projected precipitation changes |
 | `Figure 2.6.py` | Figure 2.6 | Subregional precipitation variability |
-| `Figure 2.7.py` | Figure 2.7 | Circular SWE visualization across water years |
+| `Figure 2.7.py` | Figure 2.7 | SWE visualization across water years |
 | `Figures 2.8_2.9.py` | Figures 2.8–2.9 | Snowmelt and runoff projections |
 | `Figure 2.10.py` | Figure 2.10 | Seasonal soil moisture changes |
 | `Appendix Figure A1-3.py` | Figures A1–A3 | SWE evolution under SSP scenarios |
 | `Appendix Figure A4.py` | Figure A4 | April 1 SWE change projections |
 
 ---
-
 ## Data Sources
-
 ### Climate Projections
 - LOCA2 downscaled CMIP6 projections:  
   https://loca.ucsd.edu/
@@ -59,11 +51,8 @@ Processed metadata and supporting datasets:
 https://ucmerced.box.com/s/k9x65zjovgka424fi6m8mm8szfoxpq31
 
 ---
-
 ## Study Region
-
 The analyses focus on the Sierra Nevada region of California, including the following subregions:
-
 - Northern Sierra Nevada
 - Northeastern Sierra Nevada
 - Southern Sierra Nevada
