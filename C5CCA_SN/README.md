@@ -1,7 +1,7 @@
 # C5CCA_SN: Sierra Nevada Chapter 2 (Climate science and projections) Figure Scripts
 This repository contains Python scripts used to generate figures for the Climate science and projections chapter of the **California Fifth Climate Change Assessment (C5CCA)** regional report for the **Sierra Nevada region**.
 
-The scripts reproduce climate projection analyses and visualizations presented in the report, including temperature, precipitation, snow water equivalent (SWE), runoff, snowmelt, and soil moisture changes under multiple CMIP6 Shared Socioeconomic Pathway (SSP) scenarios.
+The scripts reproduce climate projection analyses and visualizations presented in the report, including temperature, precipitation, snow water equivalent (SWE), runoff, snowmelt, and soil moisture changes under multiple CMIP6 Shared Socioeconomic Pathways (SSP).
 
 Repository:  
 https://github.com/pkj002/califo_work/tree/main/C5CCA_SN
