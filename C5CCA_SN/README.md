@@ -35,6 +35,7 @@ The scripts were developed on a Windows operating system.
 | `Figure 2.7.py` | Figure 2.7 | SWE visualization across water years |
 | `Figures 2.8_2.9.py` | Figures 2.8–2.9 | Snowmelt and runoff projections |
 | `Figure 2.10.py` | Figure 2.10 | Seasonal soil moisture changes |
+| `Figure 3.5.py` | Figure 3.5 | April 1 SWE % change projections |
 | `Appendix Figure A1-3.py` | Figures A1–A3 | SWE evolution under SSP scenarios |
 | `Appendix Figure A4.py` | Figure A4 | April 1 SWE change projections |
 
