@@ -50,7 +50,7 @@ Hydrologic variables such as SWE, runoff, snowmelt, and soil moisture were obtai
 
 Processed metadata and supporting datasets are publicly available through Zenodo:
 https://doi.org/10.5281/zenodo.20073440
----
+
 ## Study Region
 The analyses focus on the Sierra Nevada region of California, including the following subregions:
 - Northern Sierra Nevada
